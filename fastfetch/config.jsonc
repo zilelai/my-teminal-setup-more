@@ -1,9 +1,9 @@
-	{
+{
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
 
   "logo": {
     "type": "kitty",
-    "source": "~/Pictures/demo.png",
+    "source": "/home/zilelai/fedora.txt",
     "width": 24
   },
 
@@ -41,6 +41,78 @@
       "key": "󰍛 Memory",
       "keyColor": "magenta"
     },
+    {
+      "type": "os",
+      "key": " OS",
+      "keyColor": "magenta"
+    },
+    { 
+      "type": "wm",
+      "key": "󰢮 WM",
+      "keyColor": "magenta"
+    },
+    { 
+      "type": "wmtheme",
+      "key": "󰍛 Wmtheme",
+      "keyColor": "magenta"
+    },
+   { 
+      "type": "host",
+      "key": " Host",
+      "keyColor": "magenta"
+    },
+    { 
+      "type": "de",
+      "key": "󰢮 De",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "font",
+      "key": "󰍛 Font",
+      "keyColor": "magenta"
+    },
+    { 
+      "type": "theme",
+      "key": " Theme",
+      "keyColor": "magenta"
+    },
+    { 
+      "type": "cursor",
+      "key": "󰢮 Cursor",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "icons",
+      "key": "󰍛 Icons",
+      "keyColor": "magenta"
+    },
+    { 
+      "type": "terminal",
+      "key": "󰢮 Terminal",
+      "keyColor": "magenta"
+    },
+    { 
+      "type": "terminalfont",
+      "key": "󰍛 Terminalfont",
+      "keyColor": "magenta"
+    },
+    { 
+      "type": "localip",
+      "key": " Localip",
+      "keyColor": "magenta"
+    },
+    { 
+      "type": "battery",
+      "key": "󰢮 Battery",
+      "keyColor": "magenta"
+    },
+    { 
+      "type": "poweradapter",
+      "key": "󰍛 Poweradapter",
+      "keyColor": "magenta"
+    },
+
+
 
     {
       "type": "custom",
@@ -98,6 +170,87 @@
       "type": "custom",
       "format": "\u001b[1;36m╰────────────────────────────────────────────────────────────────────────────╯\u001b[0m"
     },
+
+
+   {
+     "type": "custom",
+     "format": "\u001b[1;36m╭─────────────────────────────────── OTHERS ──────────────────────────────────╮\u001b[0m"
+    },
+
+    {
+      "type": "board",
+      "key": "󰅐 Board",
+      "keyColor": "red"
+    },
+    { 
+      "type": "mouse",
+      "key": "󰏖 Mouse",
+      "keyColor": "red"
+    },
+    { 
+      "type": "keyboard",
+      "key": " Keyboard",
+      "keyColor": "red"
+    },
+    {
+      "type": "bluetooth",
+      "key": "  Bluetooth",
+      "keyColor": "red"
+    },
+     {         
+      "type": "bios",
+      "key": "󰅐 Bios",
+      "keyColor": "red"
+    },
+    { 
+      "type": "display",
+      "key": "󰏖 Display",
+      "keyColor": "red"
+    },
+    {
+      "type": "sound",
+      "key": " Sound",
+      "keyColor": "red"
+    },
+{         
+      "type": "camera",
+      "key": "󰅐 Camera",
+      "keyColor": "red"
+    },
+    { 
+      "type": "gamepad",
+      "key": "󰏖 Gamepad",
+      "keyColor": "red"
+    },
+    {
+      "type": "initsystem",
+      "key": " Initsystem",
+      "keyColor": "red"
+    },
+    {
+      "type": "wifi",
+      "key": "  Wifi",
+      "keyColor": "red"
+    },
+     {
+      "type": "users",
+      "key": "󰅐 Users",
+      "keyColor": "red"
+    },
+    { 
+      "type": "datetime",
+      "key": "󰏖 Datetime",
+      "keyColor": "red"
+    },
+    
+
+
+
+    {
+      "type": "custom",
+      "format": "\u001b[1;36m╰────────────────────────────────────────────────────────────────────────────╯\u001b[0m"
+    },
+
 
     "break",
 
